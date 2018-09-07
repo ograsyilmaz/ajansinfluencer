@@ -29,6 +29,16 @@
         &-item {
             width: 99px;
             height: 36px;
+            background-color: #ee7259;
+            color: #ffffff;
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #212b36;
+            }
         }
 
         &-item:first-child {
@@ -46,6 +56,7 @@
         .nav {
             &-item {
                 margin: 0 auto;
+
                 a {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
