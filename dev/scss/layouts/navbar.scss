@@ -65,3 +65,18 @@
         }
     }
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        .nav {
+            &-item {
+                margin: 0 auto;
+
+                a {
+                    margin-left: 0px !important;
+                    margin-right: 0px !important;
+                }
+            }
+        }
+    }
+}
