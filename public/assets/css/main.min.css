@@ -357,6 +357,14 @@ img {
 body {
   background-color: #fbfcff; }
 
+.footer {
+  background-color: #212b36;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+.footer-list ul li, .footer-social ul li {
+  display: inline; }
+
 .navbar {
   margin-top: 30px;
   background-color: #fff; }
