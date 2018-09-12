@@ -578,10 +578,10 @@ body {
 
 .wht-work-buy h1, .wht-work-buy p, .wht-work-process h1, .wht-work-process p, .wht-work-select h1, .wht-work-select p, .wht-work-singup h1, .wht-work-singup p {
   color: #fff;
-  font-family: Barlow,sans-serif;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: normal; }
+  letter-spacing: normal;
+  font-family: Barlow,sans-serif; }
 
 @media (max-width: 768px) {
   .wht-influencer-center {
@@ -684,3 +684,63 @@ body {
   text-align: left;
   color: #637381;
   margin-top: 20px; }
+
+.Promotions {
+  margin-top: 120px;
+  margin-bottom: 122px; }
+
+.Promotions-text {
+  margin-bottom: 120px; }
+
+.Promotions-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: Barlow,sans-serif;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212b36; }
+
+.Promotions .adws-group button, .Promotions .adws-group-img p {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #fff; }
+
+.Promotions .adws-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 62px; }
+
+.Promotions .adws-group-img {
+  font-family: Barlow,sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.Promotions .adws-group-img p {
+  position: absolute;
+  top: 76%;
+  font-size: .9375rem;
+  font-weight: 700;
+  text-align: center; }
+
+.Promotions .adws-group button {
+  border-radius: 17px;
+  background-color: #ee7259;
+  width: 162px;
+  height: 34px;
+  object-fit: contain;
+  font-family: Barlow,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Promotions .adws-group-img p {
+    top: 50%; } }
